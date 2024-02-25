@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+.style1 {
+  @apply text-6xl capitalize font-semibold text-center my-8;
+}
+
+.style2 {
+  @apply font-semibold text-xl cursor-pointer hover:text-2xl;
+}
