@@ -1,120 +1,134 @@
 [
     {
       "id": 1,
-      "image": "./Product Images/nike.jpg",
+      "image": "../public/Product Images/nike.jpg",
       "Name": "Nike T-Shirt",
       "Category": "shirt",
       "price": "$75",
-      "status": "Best Seller"
+      "status": "Best Seller",
+      "count": 4
     },
     {
       "id": 2,
-      "image": "./Product Images/full.jpg",
+      "image": "../public/Product Images/full.jpg",
       "Name": "Lawman Full Shirt",
       "Category": "shirt",
-      "price": "$150"
+      "price": "$150",
+      "count": 5
     },
     {
       "id": 3,
-      "image": "./Product Images/valcom.jpg",
+      "image": "../public/Product Images/valcom.jpg",
       "Name": "Valcom full Shirt",
       "Category": "shirt",
       "price": "$100",
-      "status": "Best Seller"
+      "status": "Best Seller",
+      "count": 3
     },
     {
       "id": 4,
-      "image": "./Product Images/nike shoes.jpg",
+      "image": "../public/Product Images/nike shoes.jpg",
       "Name": "Nike Shoe",
       "Category": "shoe",
       "price": "$400",
-      "status": "New Arrival"
+      "status": "New Arrival",
+      "count": 3
     },
     {
       "id": 5,
-      "image": "./Product Images/adidas.jpg",
+      "image": "../public/Product Images/adidas.jpg",
       "Name": "Adidas Shoe",
       "Category": "shoe",
       "price": "$350",
-      "status": "Best Seller"
+      "status": "Best Seller",
+      "count": 4
     },
     {
       "id": 6,
-      "image": "./Product Images/reebok.jpg",
+      "image": "../public/Product Images/reebok.jpg",
       "Name": "Reebok Shoe",
       "Category": "shoe",
-      "price": "$300"
+      "price": "$300",
+      "count": 2
     },
     {
       "id": 7,
-      "image": "./Product Images/hood1.jpg",
+      "image": "../public/Product Images/hood1.jpg",
       "Name": "Black Hood",
       "Category": "hood",
       "price": "$150",
-      "status": "Best Seller"
+      "status": "Best Seller",
+      "count": 1
     },
     {
       "id": 8,
-      "image": "./Product Images/hood2.jpg",
+      "image": "../public/Product Images/hood2.jpg",
       "Name": "Orange Hood",
       "Category": "hood",
-      "price": "$150"
+      "price": "$150",
+      "count": 4
     },
     {
       "id": 9,
-      "image": "./Product Images/hood3.png",
+      "image": "../public/Product Images/hood3.png",
       "Name": "Grey Hood",
       "Category": "hood",
       "price": "$200",
-      "status": "Best Seller"
-      
+      "status": "Best Seller",
+      "count": 5
     },
     {
       "id": 10,
-      "image": "./Product Images/bag1.jpg",
+      "image": "../public/Product Images/bag1.jpg",
       "Name": "Maroon Shiny Hand Bag",
       "Category": "bag",
       "price": "$500",
-      "status": "New Arrival"
+      "status": "New Arrival",
+      "count": 5
     },
     {
       "id": 11,
-      "image": "./Product Images/bag2.jpg",
+      "image": "../public/Product Images/bag2.jpg",
       "Name": "Red Glossy Hand Bag",
       "Category": "bag",
       "price": "$600",
-      "status": "Best Seller"
+      "status": "Best Seller",
+      "count": 4
     },
     {
       "id": 12,
-      "image": "./Product Images/bag3.jpg",
+      "image": "../public/Product Images/bag3.jpg",
       "Name": "Classic Light Blue Hand Bag",
       "Category": "bag",
       "price": "$700",
-      "status": "New Arrival"
+      "status": "New Arrival",
+      "count": 3
     },
     {
       "id": 13,
-      "image": "./Product Images/party1.jpg",
+      "image": "../public/Product Images/party1.jpg",
       "Name": "Fancy Party Wear",
       "Category": "dress",
       "price": "$800",
-      "status": "Best Seller"
+      "status": "Best Seller",
+      "count": 4
     },
     {
       "id": 14,
-      "image": "./Product Images/NA1.jpg",
+      "image": "../public/Product Images/NA1.jpg",
       "Name": "Light Weight Gold Jwellery",
       "Category": "jwellery",
       "price": "$600",
-      "status": "Best Seller"
+      "status": "Best Seller",
+      "count": 2
     },
     {
       "id": 15,
-      "image": "./Product Images/NA2.jpg",
+      "image": "../public/Product Images/NA2.jpg",
       "Name": "Fancy Gold Jwellery",
       "Category": "jwellery",
       "price": "$700",
-      "status": "New Arrival"
+      "status": "New Arrival",
+      "count": 4
     }
   ]
