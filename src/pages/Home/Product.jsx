@@ -78,7 +78,7 @@ const Product = () => {
 
   return (
     <div className="w-full mx-auto container xl:px-28 px-4 mt-12">
-      <h2 className="style1">Subscribe to our News Letter</h2>
+      <h2 className="style1">All Products From Our Top Brands</h2>
 
       <div className="mt-12 mb-10">
         <div className="flex flex-col sm:justify-center md:flex-row md:justify-between items-center gap-4 flex-wrap">
