@@ -83,16 +83,16 @@ const Product = () => {
       <div className="mt-12 mb-10">
         <div className="flex flex-col sm:justify-center md:flex-row md:justify-between items-center gap-4 flex-wrap">
           <div className="flex flex-row items-center gap-4 flex-wrap">
-            <button className="style2" onSelect={allProducts}>
+            <button className="style2" onClick={allProducts}>
               All Products
             </button>
-            <button className="style2" onSelect={() => filter("shirt")}>
+            <button className="style2" onClick={() => filter("shirt")}>
               Shirts
             </button>
-            <button className="style2" onSelect={() => filter("hood")}>
+            <button className="style2" onClick={() => filter("hood")}>
               Hoods
             </button>
-            <button className="style2" onSelect={() => filter("shoe")}>
+            <button className="style2" onClick={() => filter("shoe")}>
               Shoes
             </button>
           </div>

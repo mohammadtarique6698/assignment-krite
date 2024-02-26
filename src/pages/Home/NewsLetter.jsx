@@ -11,28 +11,28 @@ const NewsLetter = () => {
       <div className="flex flex-wrap gap-4 items-center justify-center mb-20">
         <Link to="/">
           <img
-            src="../../../public/NewsLetter/1.jpg"
+            src="../../../NewsLetter/1.jpg"
             alt="fashion image"
             className="h-64 w-64 bg-cover"
           ></img>
         </Link>
         <Link to="/">
           <img
-            src="../../../public/NewsLetter/4.jpg"
+            src="../../../NewsLetter/4.jpg"
             alt="fashion image"
             className="h-64 w-64 bg-cover"
           ></img>
         </Link>
         <Link to="/">
           <img
-            src="../../../public/NewsLetter/3.jpg"
+            src="../../../NewsLetter/3.jpg"
             alt="fashion image"
             className="h-64 w-64 bg-cover"
           ></img>
         </Link>
         <Link to="/">
           <img
-            src="../../../public/NewsLetter/6.jpg"
+            src="../../../NewsLetter/6.jpg"
             alt="fashion image"
             className="h-64 w-64 bg-cover"
           ></img>
