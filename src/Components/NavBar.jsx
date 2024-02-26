@@ -6,6 +6,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
+import { Navigate } from "react-router-dom";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,7 +61,7 @@ const NavBar = () => {
           <a href="/">
             <FaRegUser /> User
           </a>
-          <a href="/">
+          <a href="/cart">
             <MdOutlineShoppingCart /> Cart
           </a>
         </div>

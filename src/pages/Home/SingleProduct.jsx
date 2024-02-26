@@ -1,9 +1,15 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaArrowAltCircleRight, FaStar } from "react-icons/fa";
+import { useCart } from "./Context";
 
 const SingleProduct = () => {
   const [product, setProduct] = useState([]);
+  const [quant, setQuant] = useState(1);
+  const [error, setError] = useState(null);
+  const { state, dispatch } = useCart();
   const { id } = useParams();
 
   useEffect(() => {
@@ -22,8 +28,37 @@ const SingleProduct = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [id]);
 
+  const handleQuantityChange = (event) => {
+    const enteredValue = parseInt(event.target.value, 10);
+
+    if (!isNaN(enteredValue) && enteredValue > 10) {
+      setError("Quantity cannot exceed 10");
+    } else {
+      setError(null);
+      setQuant(enteredValue);
+    }
+  };
+
+  const handleAddToCart = () => {
+    const productInCart = state.cartItems.find(
+      (item) => item.id === product.id
+    );
+
+    if (quant > 11) {
+      setError("Quantity cannot exceed 10");
+    } else if (quant > 0) {
+      dispatch({
+        type: "ADD_TO_CART",
+        payload: { ...product, quantity: quant },
+      });
+      setQuant(1); // Reset the quantity input after adding to cart
+      setError(null); // Clear any previous error
+    } else {
+      setError("Quantity must be greater than 0");
+    }
+  };
+
   const { image, Name, Category, price, count } = product;
-  console.log(product.count);
 
   return (
     <div className="w-full mx-auto container xl:px-16 px-4 mt-12">
@@ -96,17 +131,24 @@ const SingleProduct = () => {
                     type="number"
                     name="price"
                     id="price"
-                    defaultValue={1}
+                    value={quant}
+                    onChange={handleQuantityChange}
                     required
                     className="border border-gray-300 text-sm font-semibold mb-1 max-w-full w-full outline-none rounded-md m-0 py-3 px-4 md:py-3 md:px-4 focus:border-red-500"
                   ></input>
                 </div>
+                {error && <p className="text-red-500">{error}</p>}
               </div>
               <div className="mt-4">
-                <button className="flex justify-center items-center gap-2 w-full py-3 px-4 bg-red-500 text-white font-bold border border-red-500 rounded-md ease-in-out duration-150 shadow-slate-600 hover:bg-white hover:text-red-500 lg:m-0 md:px-6 ">
-                  <span>Order Now</span>
-                  <FaArrowAltCircleRight />
-                </button>
+                <Link to={`/cart`}>
+                  <button
+                    className="flex justify-center items-center gap-2 w-full py-3 px-4 bg-red-500 text-white font-bold border border-red-500 rounded-md ease-in-out duration-150 shadow-slate-600 hover:bg-white hover:text-red-500 lg:m-0 md:px-6"
+                    onClick={handleAddToCart}
+                  >
+                    <span>Order Now</span>
+                    <FaArrowAltCircleRight />
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

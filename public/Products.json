@@ -6,6 +6,7 @@
       "Category": "shirt",
       "price": "$75",
       "status": "Best Seller",
+      "quantity": 10,
       "count": 4
     },
     {
@@ -14,6 +15,7 @@
       "Name": "Lawman Full Shirt",
       "Category": "shirt",
       "price": "$150",
+      "quantity": 10,
       "count": 5
     },
     {
@@ -23,6 +25,7 @@
       "Category": "shirt",
       "price": "$100",
       "status": "Best Seller",
+      "quantity": 10,
       "count": 3
     },
     {
@@ -32,6 +35,7 @@
       "Category": "shoe",
       "price": "$400",
       "status": "New Arrival",
+      "quantity": 10,
       "count": 3
     },
     {
@@ -41,6 +45,7 @@
       "Category": "shoe",
       "price": "$350",
       "status": "Best Seller",
+      "quantity": 10,
       "count": 4
     },
     {
@@ -49,6 +54,7 @@
       "Name": "Reebok Shoe",
       "Category": "shoe",
       "price": "$300",
+      "quantity": 10,
       "count": 2
     },
     {
@@ -58,6 +64,7 @@
       "Category": "hood",
       "price": "$150",
       "status": "Best Seller",
+      "quantity": 10,
       "count": 1
     },
     {
@@ -66,6 +73,7 @@
       "Name": "Orange Hood",
       "Category": "hood",
       "price": "$150",
+      "quantity": 10,
       "count": 4
     },
     {
@@ -75,6 +83,7 @@
       "Category": "hood",
       "price": "$200",
       "status": "Best Seller",
+      "quantity": 10,
       "count": 5
     },
     {
@@ -84,6 +93,7 @@
       "Category": "bag",
       "price": "$500",
       "status": "New Arrival",
+      "quantity": 10,
       "count": 5
     },
     {
@@ -93,6 +103,7 @@
       "Category": "bag",
       "price": "$600",
       "status": "Best Seller",
+      "quantity": 10,
       "count": 4
     },
     {
@@ -102,6 +113,7 @@
       "Category": "bag",
       "price": "$700",
       "status": "New Arrival",
+      "quantity": 10,
       "count": 3
     },
     {
@@ -111,6 +123,7 @@
       "Category": "dress",
       "price": "$800",
       "status": "Best Seller",
+      "quantity": 10,
       "count": 4
     },
     {
@@ -120,6 +133,7 @@
       "Category": "jwellery",
       "price": "$600",
       "status": "Best Seller",
+      "quantity": 10,
       "count": 2
     },
     {
@@ -129,6 +143,7 @@
       "Category": "jwellery",
       "price": "$700",
       "status": "New Arrival",
+      "quantity": 10,
       "count": 4
     }
   ]
