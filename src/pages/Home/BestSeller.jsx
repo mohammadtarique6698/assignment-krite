@@ -27,7 +27,7 @@ const BestSeller = () => {
 
   return (
     <div className="w-full mx-auto container xl:px-28 px-4 mt-12">
-      <h2 className="text-2xl font-semibold text-center mb-8">
+      <h2 className="text-4xl font-semibold text-center mb-8">
         Our Best Sellers
       </h2>
       <p className="text-Black/75 capitalize mx-auto md:w-2/3 mb-8">
