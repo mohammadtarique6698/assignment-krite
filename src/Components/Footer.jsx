@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-black text-white py-2 w-full text-center">
-        <p>Created By @Tarique for Mishal Tech.</p>
+        <p>Created By @Tarique for KRITE</p>
       </div>
     </>
   );

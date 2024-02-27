@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import MT from "../logo/mishal tech.png";
 import { FaSearch } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
@@ -41,7 +40,7 @@ const NavBar = () => {
     <header className="w-full xl:px-28 px-4 bg-Primary">
       <nav className="flex justify-between items-center md:py-4 pt-6 pb-3">
         <a href="/">
-          <img src={MT} alt="logo" height={100} width={100} />
+          <h4 className="font-semibold">KRITE</h4>
         </a>
         <div className="flex gap-3">
           <button onClick={toggleSearch}>
